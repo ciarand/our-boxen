@@ -84,8 +84,36 @@ node default {
     ]:
   }
 
+  include python
+  include iterm2
+  include chrome
+  include postgresql
+  include mysql
+  include onepassword
+  include zsh
+  include istatmenus3
+  include handbrake
+  include nvm
+  include transmission
+  include flux
+  include alfred
+  include fish
+  include ctags
+  include postbox
+  include transmit
+  include pow
+  include sublime_text_2
+  include vagrant
+  include caffeine
+  include spotify
+  include statsd
+  include github_for_mac
+  include better_touch_tools
+  include tmux
+
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
     target => $boxen::config::repodir
   }
+
 }
