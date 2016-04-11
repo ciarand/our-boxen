@@ -1,3 +1,5 @@
+This project is deprecated and unmaintained. Proceed with caution!
+
 # Our Boxen
 
 This is a template Boxen project designed for your organization to fork and
